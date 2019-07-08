@@ -26,7 +26,7 @@ def street(request):
     text = [
         'The idea of Zaczepieni was initially street portraits of people I accost for pictures. I love looking for people who intrigue me. I love showing their uniqueness and beauty.',
         'here is no photo studio, no perfect light... there is only a passer-by, few shots, a quick moment that will last forever and my fear that needs to be defeated.',
-        'Stopping someone on the street is not an easy job for me, it’s much more difficult than taking the photo itself... but you only live once, right?'
+        'Stopping someone on the street is not an easy job for me, it\'s much more difficult than taking the photo itself... but you only live once, right?'
     ]
     return {
         'page': 'street',
