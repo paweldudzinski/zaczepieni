@@ -12,8 +12,8 @@ def main(global_config, **settings):
     return config.make_wsgi_app()
 
 global_config = OrderedDict(
-    [('here', '/Users/paweldudzinski/Work/Ewa/zaczepieni'),
-     ('__file__', '/Users/paweldudzinski/Work/Ewa/zaczepieni/production.ini')])
+    [('here', '/home/papaduda/domains/zaczepieni.pl/public_python/public'),
+     ('__file__', '/home/papaduda/domains/zaczepieni.pl/public_python/public/production.ini')])
 settings = {
     'pyramid.reload_templates': 'true',
     'pyramid.debug_authorization': 'false',
