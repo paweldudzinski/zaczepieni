@@ -1,0 +1,10 @@
+def includeme(config):
+    config.add_static_view('static', 'static', cache_max_age=3600)
+    config.add_route('home', '/')
+    config.add_route('kids', '/kids')
+    config.add_route('street', '/street')
+    config.add_route('love', '/love')
+    config.add_route('beauty', '/beauty')
+    config.add_route('nature', '/nature')
+    config.add_route('business', '/business')
+    config.add_route('contact', '/contact')
