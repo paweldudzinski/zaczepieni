@@ -69,3 +69,8 @@ def nature(request):
         'sequence': 18,
         'text': None
     }
+
+
+@view_config(route_name='contact', renderer='../templates/contact.mako')
+def contact(request):
+    return {'page': 'contact'}
