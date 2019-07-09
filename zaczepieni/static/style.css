@@ -5301,7 +5301,8 @@ pre {
     .navbar-expand-lg > .container,
     .navbar-expand-lg > .container-fluid {
         padding-right: 0;
-        padding-left: 0
+        padding-left: 0;
+        background-color: black !important;
     }
     .navbar:not(.transparent).navbar:not(.transparent-light):not(.bg-dark-fixed):not(.dark-wrapper):not(.bg-dark):not(.fixed) {
 	    background: #FFF !important;
