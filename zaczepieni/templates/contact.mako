@@ -4,7 +4,9 @@
     <div class="row">
       <div class="col-lg-8 offset-lg-2">
         <h2 class="section-title text-center">Get in Touch</h2>
-        <p class="text-center">Nullam quis risus eget urna mollis ornare vel eu leo. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Integer posuere erat.</p>
+        <p class="text-center">
+          If you want me to capture your moments, if you want me to stop you in the street,<br />if you have an empty frame... let's meet.
+        </p>
         <div class="space20"></div>
         <div class="row text-center">
           <div class="col-md-6"> <span class="icon icon-color color-default fs-48 mb-10"><i class="si-phone_phone-ringing"></i></span>
@@ -18,8 +20,6 @@
         </div>
         <!--/.row -->
         <div class="space30"></div>
-
-
       </div>
       <!-- /column -->
     </div>
