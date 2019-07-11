@@ -30,7 +30,7 @@
       <div class="space30 d-block d-lg-none d-xl-none"></div>
       <div class="col-lg-6">
         <p>A good story needs time to be told. It needs space, it needs to lay in a drawer for a while and mature. Coming out of my own shell is not easy but here I am finally ready to talk to people I don’t know. I was too afraid of meeting you  and perhaps being judged. I was brought up in a way where instead of thanking someone for a compliment, I'd try to undermine it. Stepping out of a comfort zone may be healing, may give us the freedom we are all looking for. Today, I try living as big and bold a life as possible...</p>
-        <p>I’m a mom, a wife, an English teacher who loves pressing the shutter button from time to time. I prefer outdoor photos and natural light. Street portraits, kids, couples and their emotions is what I like the most.  Faces, eyes, smiles, stories, they are all different and they are all fascinating.</p>
+        <p>I’m a mom, a wife, an English teacher who loves pressing the shutter button from time to time. I prefer outdoor photos and natural light. Street portraits, kids, families, couples and their emotions is what I like the most.  Faces, eyes, smiles, stories, they are all different and they are all fascinating.</p>
         <div class="space10"></div>
       </div>
       <!-- /column -->
