@@ -16,7 +16,7 @@ def kids(request):
     ]
     return {
         'page': 'kids',
-        'sequence': 45,
+        'sequence': 41,
         'text': text
     }
 
@@ -40,17 +40,21 @@ def street(request):
 def business(request):
     return {
         'page': 'business',
-        'sequence': 5,
+        'sequence': 8,
         'text': None
     }
 
 
 @view_config(route_name='love', renderer='../templates/flickity_carousel.mako')
 def love(request):
+    text = [
+        'Oh yes, love is everything! Youth, wildness, love stories... it’s also the beauty of parenting, little hands around your neck, silliness and laughter...',
+        'It\'s the pride of being a father and the spark in the eye of a mom...'
+    ]
     return {
         'page': 'love',
-        'sequence': 11,
-        'text': None
+        'sequence': 14,
+        'text': text
     }
 
 
