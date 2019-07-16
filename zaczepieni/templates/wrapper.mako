@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="style/images/favicon.png">
-  <title>Zaczepieni :: fotografia dziecięca, uliczna, biznesowa</title>
+  <title>Zaczepieni :: fotografia dziecięca, rodzinna, uliczna</title>
   <link rel="stylesheet" type="text/css" href="${request.static_url('zaczepieni:static/style/css/bootstrap.min.css')}">
   <link rel="stylesheet" type="text/css" href="${request.static_url('zaczepieni:static/style/css/plugins.css')}">
   <link rel="stylesheet" type="text/css" href="${request.static_url('zaczepieni:static/style/revolution/css/settings.css')}">
