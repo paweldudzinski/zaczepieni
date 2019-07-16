@@ -48,7 +48,7 @@ def business(request):
 @view_config(route_name='love', renderer='../templates/flickity_carousel.mako')
 def love(request):
     text = [
-        'Oh yes, love is everything! Youth, wildness, love stories... it’s also the beauty of parenting, little hands around your neck, silliness and laughter...',
+        'Oh yes, love is everything! Youth, wildness, love stories... it\'s also the beauty of parenting, little hands around your neck, silliness and laughter...',
         'It\'s the pride of being a father and the spark in the eye of a mom...'
     ]
     return {
