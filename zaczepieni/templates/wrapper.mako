@@ -42,7 +42,7 @@
         <div class="social-wrapper text-right">
           <ul class="social social-mute social-s mb-0">
             <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
-            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="https://www.instagram.com/zaczepieni/"><i class="fa fa-instagram"></i></a></li>
           </ul>
         </div>
         <!--/.social-wrapper -->
