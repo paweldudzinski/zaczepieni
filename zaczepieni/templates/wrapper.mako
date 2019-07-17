@@ -59,7 +59,7 @@
               <address>
                 <strong>Ewa Dudzinska</strong><br />
                 +48 504 345 939<br />
-                ewa.dudzinska@gmail.com
+                ewadudzinska@zaczepieni.pl
               </address>
             </div>
             <!-- /.widget -->
