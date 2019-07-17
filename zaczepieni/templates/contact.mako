@@ -7,6 +7,9 @@
         <p class="text-center">
           If you want me to capture your moments, if you want me to stop you in the street,<br />if you have an empty frame... let's meet.
         </p>
+        <p class="text-center">
+          Where? In Warsaw / Białystok (Poland) / halfway or wherever you are...
+        </p>
         <div class="space20"></div>
         <div class="row text-center">
           <div class="col-md-6"> <span class="icon icon-color color-default fs-48 mb-10"><i class="si-phone_phone-ringing"></i></span>

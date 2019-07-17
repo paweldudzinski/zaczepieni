@@ -41,8 +41,8 @@
         </div>
         <div class="social-wrapper text-right">
           <ul class="social social-mute social-s mb-0">
-            <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
-            <li><a href="https://www.instagram.com/zaczepieni/"><i class="fa fa-instagram"></i></a></li>
+            <li style="display:none;"><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+            <li><a target="_blank" href="https://www.instagram.com/zaczepieni/"><i class="fa fa-instagram"></i></a></li>
           </ul>
         </div>
         <!--/.social-wrapper -->
@@ -64,10 +64,9 @@
             </div>
             <!-- /.widget -->
             <div class="widget">
-              <h3 class="widget-title">Elsewhere</h3>
               <ul class="social social-mute social-s mt-10 mb-0">
-                <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
-                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                <li><a target="_blank" href="https://www.instagram.com/zaczepieni/"><i class="fa fa-instagram"></i></a></li>
+                <li><a style="display:none;" href="#"><i class="fa fa-facebook-f"></i></a></li>
               </ul>
             </div>
             <!-- /.widget -->
