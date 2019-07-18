@@ -11,6 +11,7 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="I'm a wife to my biggest support, a mom to my little wonder, an English teacher who loves pressing the shutter button from time to time. I prefer outdoor photos and natural light. Street portraits, kids, families, couples and their emotions is what I like the most. Faces, eyes, smiles, stories, they are all different and they are all fascinating.">
   <link rel="shortcut icon" href="style/images/favicon.png">
   <title>Zaczepieni :: fotografia dziecięca, rodzinna, uliczna</title>
   <link rel="stylesheet" type="text/css" href="${request.static_url('zaczepieni:static/style/css/bootstrap.min.css')}">
