@@ -12,7 +12,7 @@ def kids(request):
         'Working with children gives me a lot of satisfaction, both at school and behind the lens.',
         'Kids don\'t pose, they don\'t think about how they will look in the picture. No retouching expected ;)',
         'Sometimes shy, sometimes naughty and misbehaving, enchanted in their world, they are wonderfully innocent',
-        '...and it doesn\'t matter where they are come from.'
+        '...and it doesn\'t matter where they come from.'
     ]
     return {
         'page': 'kids',
