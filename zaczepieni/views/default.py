@@ -62,7 +62,7 @@ def love(request):
 def beauty(request):
     return {
         'page': 'beauty',
-        'sequence': 18,
+        'sequence': 16,
         'text': None
     }
 
@@ -71,7 +71,7 @@ def beauty(request):
 def nature(request):
     return {
         'page': 'nature',
-        'sequence': 18,
+        'sequence': 17,
         'text': None
     }
 
