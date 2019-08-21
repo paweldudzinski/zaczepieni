@@ -16,7 +16,7 @@ def kids(request):
     ]
     return {
         'page': 'kids',
-        'sequence': 40,
+        'sequence': 42,
         'text': text
     }
 
@@ -40,7 +40,7 @@ def street(request):
 def business(request):
     return {
         'page': 'business',
-        'sequence': 8,
+        'sequence': 10,
         'text': None
     }
 
@@ -53,7 +53,7 @@ def love(request):
     ]
     return {
         'page': 'love',
-        'sequence': 20,
+        'sequence': 21,
         'text': text
     }
 
@@ -62,7 +62,7 @@ def love(request):
 def beauty(request):
     return {
         'page': 'beauty',
-        'sequence': 16,
+        'sequence': 20,
         'text': None
     }
 
