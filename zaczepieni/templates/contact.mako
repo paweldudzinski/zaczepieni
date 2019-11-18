@@ -22,6 +22,7 @@
           <!--/column -->
         </div>
         <!--/.row -->
+        <img src="${request.static_url('zaczepieni:static/style/images/kontakt.jpg')}" alt="" style="width: inherit !important; />
         <div class="space30"></div>
       </div>
       <!-- /column -->
