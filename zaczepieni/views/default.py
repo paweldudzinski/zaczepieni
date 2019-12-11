@@ -53,7 +53,7 @@ def love(request):
     ]
     return {
         'page': 'love',
-        'sequence': 26,
+        'sequence': 29,
         'text': text
     }
 
