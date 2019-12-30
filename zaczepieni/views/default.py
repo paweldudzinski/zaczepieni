@@ -16,7 +16,7 @@ def kids(request):
     ]
     return {
         'page': 'kids',
-        'sequence': 43,
+        'sequence': 45,
         'text': text
     }
 
