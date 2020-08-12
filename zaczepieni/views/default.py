@@ -16,7 +16,7 @@ def kids(request):
     ]
     return {
         'page': 'kids',
-        'sequence': 48,
+        'sequence': 49,
         'text': text
     }
 
@@ -71,7 +71,7 @@ def beauty(request):
 def nature(request):
     return {
         'page': 'nature',
-        'sequence': 17,
+        'sequence': 18,
         'text': None
     }
 
