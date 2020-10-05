@@ -2,12 +2,12 @@ from pyramid.view import view_config
 
 
 @view_config(route_name='home', renderer='../templates/index.mako')
-def home(request):
+def home(_request):
     return {'page': 'home'}
 
 
 @view_config(route_name='kids', renderer='../templates/cube_grid.mako')
-def kids(request):
+def kids(_request):
     text = [
         'Working with children gives me a lot of satisfaction, both at school and behind the lens.',
         'Kids don\'t pose, they don\'t think about how they will look in the picture. No retouching expected ;)',
@@ -16,13 +16,13 @@ def kids(request):
     ]
     return {
         'page': 'kids',
-        'sequence': 58,
+        'sequence': 71,
         'text': text
     }
 
 
 @view_config(route_name='street', renderer='../templates/flickity_carousel.mako')
-def street(request):
+def street(_request):
     text = [
         'The idea of Zaczepieni was initially street portraits of people I accost for pictures. I love looking for people who intrigue me. I love showing their uniqueness and beauty.',
         'There is no photo studio, no perfect light... there is only a passer-by, few shots, a quick moment that will last forever and my fear that needs to be defeated.',
@@ -37,7 +37,7 @@ def street(request):
 
 
 @view_config(route_name='business', renderer='../templates/flickity_carousel.mako')
-def business(request):
+def business(_request):
     return {
         'page': 'business',
         'sequence': 10,
@@ -46,20 +46,20 @@ def business(request):
 
 
 @view_config(route_name='love', renderer='../templates/flickity_carousel.mako')
-def love(request):
+def love(_request):
     text = [
         'Oh yes, love is everything! Youth, wildness, love stories... it\'s also the beauty of parenting, little hands around your neck, silliness and laughter...',
         'It\'s the pride of being a father and the spark in the eye of a mom...'
     ]
     return {
         'page': 'love',
-        'sequence': 31,
+        'sequence': 32,
         'text': text
     }
 
 
 @view_config(route_name='beauty', renderer='../templates/flickity_carousel.mako')
-def beauty(request):
+def beauty(_request):
     return {
         'page': 'beauty',
         'sequence': 21,
