@@ -1,5 +1,12 @@
+import os
+
 from pyramid.view import view_config
 
+BASE_DIR = '/zaczepieni/static/style/images/art/'
+
+
+def _filter(files):
+    return sorted(filter(lambda f: 'jpg' in f, files))
 
 @view_config(route_name='home', renderer='../templates/index.mako')
 def home(_request):
@@ -14,9 +21,11 @@ def kids(_request):
         'Sometimes shy, sometimes naughty and misbehaving, enchanted in their world, they are wonderfully innocent',
         '...and it doesn\'t matter where they come from.'
     ]
+    files = os.listdir(os.getcwd() + BASE_DIR + 'kids')
     return {
         'page': 'kids',
         'sequence': 71,
+        'files': _filter(files),
         'text': text
     }
 

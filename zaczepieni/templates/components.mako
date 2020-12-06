@@ -19,7 +19,7 @@
     </div>
 </%def>
 
-<%def name="cube_grid(space, sequence, text=[])">
+<%def name="cube_grid(space, sequence, files, text=[])">
     <div class="wrapper dark-wrapper">
       <div class="inner pt-15 pb-15 pl-15 pr-15">
       %if text:
@@ -31,11 +31,11 @@
         <div class="space20"></div>
       %endif
         <div id="cube-grid-full" class="cbp light-gallery">
-          %for i in range(1, sequence+1):
+          %for file in files:
           <div class="cbp-item ${space}">
             <figure class="overlay overlay3 rounded">
-                <a href="${request.static_url('zaczepieni:static/style/images/art/%s/%s.jpg' % (space, i))}">
-                    <img src="${request.static_url('zaczepieni:static/style/images/art/%s/%s.jpg' % (space, i))}" alt="" />
+                <a href="${request.static_url('zaczepieni:static/style/images/art/%s/%s' % (space, file))}">
+                    <img src="${request.static_url('zaczepieni:static/style/images/art/%s/%s' % (space, file))}" alt="" />
                 </a>
             </figure>
           </div>
