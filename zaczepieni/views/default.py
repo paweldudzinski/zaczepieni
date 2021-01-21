@@ -49,7 +49,7 @@ def street(_request):
 def business(_request):
     return {
         'page': 'business',
-        'sequence': 10,
+        'sequence': 11,
         'text': None
     }
 
@@ -62,7 +62,7 @@ def love(_request):
     ]
     return {
         'page': 'love',
-        'sequence': 32,
+        'sequence': 33,
         'text': text
     }
 
@@ -71,7 +71,7 @@ def love(_request):
 def beauty(_request):
     return {
         'page': 'beauty',
-        'sequence': 21,
+        'sequence': 22,
         'text': None
     }
 
@@ -80,7 +80,7 @@ def beauty(_request):
 def nature(request):
     return {
         'page': 'nature',
-        'sequence': 18,
+        'sequence': 19,
         'text': None
     }
 
